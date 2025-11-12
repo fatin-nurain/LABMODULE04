@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatin's Simple Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fatin's Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <article>
+            <h2>Welcome to My Page!</h2>
+            <p>
+                Hi! My name is Fatin. This is my personal webpage created using simple HTML and CSS. 
+                I’m learning how to build and design a webpage step by step. Thank you for visiting!
+            </p>
+        </article>
+    </section>
+
+    <section id="about">
+        <article>
+            <h2>About Me</h2>
+            <p>
+                I’m a student who enjoys learning about technology and web design. 
+                This page is part of my learning project to practice using basic HTML and CSS elements. 
+                I hope to improve my skills more in the future!
+            </p>
+        </article>
+    </section>
+
+    <section id="video">
+        <h2>My Favourite Video</h2>
+        <div class="video-container">
+            <video controls width="480">
+                <source src="labexercise4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="caption">Here’s my favourite song!</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label>Hobbies:</label><br>
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling" name="hobby" value="traveling">
+            <label for="traveling">Traveling</label>
+            <input type="checkbox" id="music" name="hobby" value="music">
+            <label for="music">Listening to Music</label><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fatin's Webpage | Created for Lab Exercise 4</p>
+    </footer>
+</body>
+</html>
